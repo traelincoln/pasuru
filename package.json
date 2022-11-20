@@ -6,8 +6,8 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "test": "pasuru-test",
-    "start": "parcel",
-    "build": "parcel build"
+    "start": "parcel --dist-dir dist",
+    "build": "parcel build --public-url ./pasuru --dist-dir docs --no-content-hash"
   },
   "repository": {
     "type": "git",
