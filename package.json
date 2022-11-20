@@ -7,7 +7,7 @@
   "scripts": {
     "test": "pasuru-test",
     "start": "parcel --dist-dir dist",
-    "build": "parcel build --dist-dir docs ./"
+    "build": "parcel build --dist-dir docs --public-url ./pasuru"
   },
   "repository": {
     "type": "git",
